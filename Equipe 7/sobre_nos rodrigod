@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Sobre nós</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+		<style>
+        @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+		#main {
+    
+  display: flex;
+  margin: auto;
+
+  justify-content: center;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+
+
+    
+}
+
+
+
+
+
+
+li {
+    display: inline-block;
+}
+
+
+li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 5rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+li  a:hover  {
+    color: #FF0000
+}
+
+
+body {
+    background-color: whitesmoke; 
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+ul {
+    text-align: center;
+    overflow: hidden;
+    max-width: 1200px;
+    margin-right: 2rem ;
+    background-color: #2E2633;
+}
+
+
+			#teste {
+    display: block;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height:100%;
+}
+            #oi{
+    text-align: right;
+}
+            #center{
+    text-align: center;
+    border: 3px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+}
+            #titulo{
+    text-align: center;
+    font-family: Ubuntu;
+} 
+            #descrição{
+    text-align: center; 
+    font-family: Ubuntu;
+}
+            #relato{
+    font-family: Arial;
+    text-align: center;
+    justify-content: center;
+}
+            #alinhar{
+    font-family: Arial;
+    text-align: center;
+}
+            #teste1{
+    text-align: center;
+    font-family: Arial;
+}
+            #teste2{
+    text-align: center;
+    font-family: Arial;
+}
+            #teste3{
+    text-align: center;
+    font-family: Arial;
+}
+            #teste4{
+    text-align: center;
+    font-family: Arial;
+}
+            #teste5{
+    font-family: Arial;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+            .logo_div{
+                margin: 3.2rem 0rem 0rem 0rem;
+
+
+            }
+
+           
+		</style>
+		
+	</head>
+
+
+	<body>
+
+		
+
+<div id="main">
+    <div class="flex-container">
+    <div class="logo_div">
+        <img class="logo" width="100" height="68" id="logo" src='logo.jpg' alt="logo"/>
+    </div>
+    </div>
+
+  <div class="navbar" >
+    <p id = "oi">sobre nós</p>
+    <ul>
+      <li id = "a"><a href="#home">Home</a></li>
+      <li id = "b"><a href="#sobre_nos">Sobre nós</a></li>
+      <li id = "c"><a href="#fotos">Fotos</a></li>
+      <li id = "d"><a href="#contatos">Contatos</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<h2 id = "titulo">Foto do Grupo</h2>
+<figure>
+    <img id="teste" src = "grupo.jpg" alt = "Foto do Grupo"/>
+    <figcaption id = "center"> Andre / Rodrigo / Luiza / Jose </figcaption>
+</figure>
+<h2 id = "descrição"> <strong>O que foi feito</strong></h2>
+<div id = "relato">
+	<p id = "teste5">
+        Nós, alunos do 2° semestre de engenharia do Instituto de Ensino e Pesquisa (INSPER), criamos esta pagina com o intuito de mostrar e explicar da melhor maneira possivel projetos feitos ao longo do nosso primeiro ano de faculdade. Faz parte desse projejo os alunos:
+    </p>
+    <ol  id = "alinhar">
+    	<br>
+        <li>Rodrigo Roquete(Engenharia Mecânica)</li>
+
+        
+        <br>
+        <li id = "teste2">André Weber(Engenharia da Computação)</li>
+
+        
+        <br>
+        <li id = "teste3">Luiza Silveira(Engenharia Mecatronica)</li>
+
+        
+        <br>
+        <li id = "teste4">José Antonio(Engenharia Mecatronica)</li>
+        
+    </ol>
+
+    
+</div>
+
+ 
+
+	</body>
+</html>
