@@ -27,7 +27,16 @@
 
 
 
-li {
+#a {
+    display: inline-block;
+}
+#b {
+    display: inline-block;
+}
+#c {
+    display: inline-block;
+}
+#d {
     display: inline-block;
 }
 
@@ -63,25 +72,33 @@ ul {
     margin-right: 2rem ;
     background-color: #2E2633;
 }
+            #logo{
+    width:150px; 
+    height:100px;
+    margin-left:50% ;
+    
 
+
+    
+}
 
 			#teste {
     display: block;
     font-family: Arial;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
-    max-height:100%;
+    max-width: 82%;
+    max-height:82%;
 }
             #oi{
     text-align: right;
 }
             #center{
-    text-align: center;
+    text-align: center;    
     border: 3px solid green;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1025px;
+    max-width: 81.5%;
 }
             #titulo{
     text-align: center;
@@ -99,32 +116,10 @@ ul {
             #alinhar{
     font-family: Arial;
     text-align: center;
-}
-            #teste1{
-    text-align: center;
-    font-family: Arial;
-}
-            #teste2{
-    text-align: center;
-    font-family: Arial;
-}
-            #teste3{
-    text-align: center;
-    font-family: Arial;
-}
-            #teste4{
-    text-align: center;
-    font-family: Arial;
-}
-            #teste5{
-    font-family: Arial;
-    text-align: center;
-    justify-content: center;
-    
-}
+    display: inline-block;
 
-            .logo_div{
-                margin: 3.2rem 0rem 0rem 0rem;
+
+            
 
 
             }
@@ -139,15 +134,16 @@ ul {
 
 		
 
-<div id="main">
+  <div id="main">
     <div class="flex-container">
     <div class="logo_div">
-        <img class="logo" width="100" height="68" id="logo" src='logo.jpg' alt="logo"/>
+        
     </div>
     </div>
 
   <div class="navbar" >
     <p id = "oi">sobre nós</p>
+    <p><img class="logo"  id="logo" src='logo.jpg' alt="logo"/></p>
     <ul>
       <li id = "a"><a href="#home">Home</a></li>
       <li id = "b"><a href="#sobre_nos">Sobre nós</a></li>
@@ -165,24 +161,24 @@ ul {
 </figure>
 <h2 id = "descrição"> <strong>O que foi feito</strong></h2>
 <div id = "relato">
-	<p id = "teste5">
+	<p>
         Nós, alunos do 2° semestre de engenharia do Instituto de Ensino e Pesquisa (INSPER), criamos esta pagina com o intuito de mostrar e explicar da melhor maneira possivel projetos feitos ao longo do nosso primeiro ano de faculdade. Faz parte desse projejo os alunos:
     </p>
-    <ol  id = "alinhar">
-    	<br>
+    <ol >
+    	
         <li>Rodrigo Roquete(Engenharia Mecânica)</li>
 
         
-        <br>
-        <li id = "teste2">André Weber(Engenharia da Computação)</li>
+        
+        <li >André Weber(Engenharia da Computação)</li>
 
         
-        <br>
-        <li id = "teste3">Luiza Silveira(Engenharia Mecatronica)</li>
+        
+        <li>Luiza Silveira(Engenharia Mecatronica)</li>
 
         
-        <br>
-        <li id = "teste4">José Antonio(Engenharia Mecatronica)</li>
+        
+        <li >José Antonio(Engenharia Mecatronica)</li>
         
     </ol>
 
