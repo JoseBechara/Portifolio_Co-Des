@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+	<head>
+		<title>contato</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1" >
+		
+		<link rel="stylesheet" type="text/css" href="assets/reset.css">
+
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+			body  {
+		text-align: center;
+		background-color: whitesmoke;
+
+		 }
+
+		    body h1{
+		    	font-family: Ubuntu;
+		    	position: relative;
+		    	font-size: 2rem;
+		    	left: -18.2rem;
+
+
+		    }
+		
+
+
+		} 
+
+		.navbar{
+			padding: 10rem;
+			font-size: 10rem;
+
+		}
+
+
+
+			form{
+				margin-top: 1.3rem;
+				padding-right: 26.8rem;
+
+						}
+
+			.forma{
+					width: 33.2rem;	
+					font-size: 1rem;
+
+					}
+
+
+			#main {
+			    
+			  display: flex;
+			  margin: auto;
+			
+
+			  justify-content: center
+
+			    	}
+
+
+			li {
+			    display: inline-block;
+			}
+
+			li a {
+			    display: inline-block;
+			    color: #fff;
+			    text-align: center;
+			    padding: 1.5rem 5rem;
+			    text-decoration: none;
+			    font-family: Arial, Helvetica, sans-serif;
+			    font-weight: bold;
+			}
+
+			li a:hover {
+			    color: #FF0000
+			}
+
+
+			ul {
+			    text-align: center;
+			    overflow: hidden;
+			    max-width: 1200rem;
+			    margin-right: 2rem;
+			    background-color: #2E2633;
+			}
+
+			.titulo {
+				font-family: arial;
+				position: relative; 
+				left: -15rem;
+				font-size: 1.1rem;
+				padding: 1.0rem 0.5rem 0rem 0.5rem;
+				
+			}
+
+			.titulo_mensagem {
+				font-family: arial;
+				position: relative; 
+				left: -13.9rem;
+				font-size: 1.1rem;
+				padding: 1rem 0.5rem 0rem 0.5rem;
+
+				
+			}
+		
+
+			.logo_div{
+				margin: 1rem 53.5rem 0rem 0rem;
+				
+			}
+
+			
+
+			@media (max-width: 360px)   {
+				li a {			    			    			 
+			    padding: 1.0rem 2.2rem;	
+			    margin-right: 2rem;		 			    
+     			}
+
+				body h1 { font-size: 1.7rem;
+					padding-left: 18rem;
+
+					 }
+
+				.titulo_mensagem {
+	     			left: -0.5rem;
+	     			font-size: 1.1rem;
+				}
+				.titulo {				
+				left: -0.5rem;
+				padding: 0.2rem 0.5rem 0rem 0.5rem;
+				font-size: 1.1rem;}
+
+				.forma{
+					width: 18rem;
+
+				}
+
+				.logo_div{
+					
+					padding-left: 4.6rem;
+                }
+								
+			    }
+			}
+
+
+		
+	</style>	
+	</head>
+
+	<body>
+		<div class="logo_div">
+   				 <img class="logo" width="100" height="68" id="logo" src='logo.jpg' alt="logo"/>
+  			</div>
+
+		<div id="main">
+ 			
+ 			<div class="navbar">
+   				<ul>
+				  <li><a href="#home">Home</a></li>
+				  <li><a href="#sobre_nos">Sobre nós</a></li>
+				  <li><a href="#fotos">Fotos</a></li>
+				  <li><a href="#contatos">Contatos</a></li>
+  
+    			</ul>
+ 			</div>
+        </div>
+		
+
+
+				<h1>Entre em contato conosco</h1>
+		
+
+			<form > 
+				<div class="titulo">
+					Nome:<br>
+				</div>
+			
+		        <input name = "nome" class="forma" type="text" ><br>
+
+		        <div class="titulo">
+              		 E-mail:<br>
+              	</div>
+              		 
+			    <input name=" E-mail" class="forma" type="text" ><br>
+
+			    <div class="titulo_mensagem">
+			        Mensagem:<br>
+			    </div> 
+
+                <textarea name="Mensagem" rows = "7" class="forma" required></textarea><br> 
+			   
+
+			    <input type="submit"  value="Enviar Mensagem" > 
+
+			 </form>
+			    
+
+
+			
+</body>
+</html>
