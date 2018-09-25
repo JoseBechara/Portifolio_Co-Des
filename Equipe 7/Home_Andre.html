@@ -3,12 +3,16 @@
 <head>
   <title>Home</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <style>
   @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 .all {
+
   display: flex;
-  justify-content: center
+  justify-content: center;
+
 }
 
 
@@ -89,13 +93,11 @@ body {
 
 
 #main {
-    
+
   display: flex;
   margin: auto;
+  justify-content: center;
 
-  justify-content: center
-
-    
 }
 
 
@@ -103,11 +105,31 @@ body {
 .logo_div {
 
   margin: 0rem 0rem 0rem 17rem;
-
   
 }
 
 
+
+
+
+
+@media (max-width: 360px) {
+  .logo_div {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+
+  #main {
+    display: block;
+  }  
+
+
+  .all {
+    display:block;
+  }
+
+
+}
 
 </style>
 </head>
@@ -119,10 +141,10 @@ body {
 <div id="main">
   <div class="navbar">
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#Sobre_nos">Sobre nós</a></li>
-      <li><a href="#fotos">Fotos</a></li>
-      <li><a href="#contatos">Contatos</a></li>
+      <li><a href="Home_Andre.html">Home</a></li>
+      <li><a href="Sobre_nos_Rodrigo.html">Sobre nós</a></li>
+      <li><a href="Fotos_Jose.html">Fotos</a></li>
+      <li><a href="Contato_Luiza.html">Contatos</a></li>
       
     </ul>
   </div>
