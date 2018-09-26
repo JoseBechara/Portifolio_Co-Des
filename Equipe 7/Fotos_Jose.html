@@ -70,10 +70,11 @@
          margin: auto;
          padding: 1rem;
          }
-         .placa, .carro, .celular{
-         margin: 0rem;
-         padding: 0rem;
-         width: auto;
+         .placa{
+         margin: 1rem;
+         padding: 1rem;
+         height: 18rem;
+         width: 32rem;
          max-width: 100%;
          max-height: 100%;
          }
@@ -89,28 +90,49 @@
          justify-content: center;
          align-content: center;
          }
-         .placa {
-         }
-         .carro{
-         }
-         .celular{
-         }
+         
+         .frase {
+            font-family: Ubuntu;
+            margin: 2rem 0rem 0rem 8rem;
+            font-size: 1.5rem
+          }
+
+         #logo_e_frase{
+          height:auto;
+          width:auto;
+          display: flex;
+          justify-content: center;
+          margin: 0rem 0rem 0rem 0rem;
+          }
+
+
+          .frase {
+            font-family: Ubuntu;
+            margin: 4rem 12rem 0rem 8rem;
+            font-size: 1.5rem
+            }
+
+          .logo_div{
+            margin: 0rem 0rem 0rem 0rem;
+
+          }
+        
 
          @media (max-width: 360px) {
           .main{
-         margin: 0.5rem;
-         padding: 0.5rem;
-         width: auto;
-         max-width: 100%
-         max-height:100%;
+             margin: 0.5rem;
+             padding: 0.5rem;
+             width: auto;
+             max-width: 100%
+             max-height:100%;
           }
 
-          .placa, .carro, .celular{
-         margin: 0rem;
-         padding: 0rem;
-         width: auto;
-         max-width: 100%;
-         max-height: 100%;
+          .placa{
+             margin: 0rem;
+             padding: 0rem;
+             width: auto;
+             max-width: 100%;
+             max-height: 100%;
           }
           .titulo{  
             font-size: 0.75rem;
@@ -118,40 +140,10 @@
           }
           .texto{
             font-size: 0.5rem;
-
           }
-          .frase {
-            font-family: Ubuntu;
-            margin: 2rem 0rem 0rem 8rem;
-            font-size: 1.5rem
-          }
+          
 
-          #logo_e_frase{
-            display: flex;
-            align-content: center;
-            align-self: center;
-            margin: auto;
-            margin: 0.5rem;
-            padding: 0.5rem;
-            width: auto;
-            max-width: 100%
-            max-height:100%;
-          }
-
-
-          .frase {
-
-            align-content: center;
-            align-self: center;
-            margin: auto;
-            padding: 1rem;
-            width: auto;
-            max-width: 100%;
-            max-height: 100%;
-            align-self: center;
-          }
-
-
+          
          }
 
       </style>
