@@ -108,7 +108,7 @@
 
           .frase {
             font-family: Ubuntu;
-            margin: 4rem 12rem 0rem 8rem;
+            margin: 2rem 12rem 0rem 8rem;
             font-size: 1.5rem
             }
 
@@ -116,6 +116,50 @@
             margin: 0rem 0rem 0rem 0rem;
 
           }
+
+          .dropdown {
+         float: left;
+         overflow: hidden;
+}
+
+      .dropdown {
+          font-size: 16px;    
+          border: none;
+          outline: none;
+          color: white;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          font-family: Ubuntu;
+          font-weight: bold;
+      }
+
+      .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+      }
+
+      .dropdown-content a:hover {
+          background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
         
 
          @media (max-width: 360px) {
@@ -143,6 +187,7 @@
           }
           
 
+
           
          }
 
@@ -153,7 +198,7 @@
    <div id="main_navbar">
     <div id="logo_e_frase">
      <div class="logo_div">
-       <img class="logo" width="100" height="68" id="logo" src='logo.jpg' alt="logo"/>
+       <img class="logo" width="250" height="150" id="logo" src='logo.jpg' alt="logo"/>
      </div>
 
       <div class="frase">
@@ -162,10 +207,18 @@
     </div> 
      <div class="navbar">
        <ul>
-        <li><a href="Home_Andre.html">Home</a></li>
-       <li><a href="Sobre_nos_Rodrigo.html">Sobre nós</a></li>
-       <li><a href="Fotos_Jose.html">Fotos</a></li>
-       <li><a href="Contato_Luiza.html">Contatos</a></li>
+        <div class="dropdown">
+          <li><a class="dropbtn" href="index.html">Home</a></li>
+          <div class="dropdown-content">
+              <a href="PaginaGrupo_Rodrigo.html">ESTUDO TEÓRICO AUTÔNOMO</a>
+              <a href="PaginaGrupo_Andre.html">ESTUDO EMPRESARIAL</a>
+              <a href="PaginaGrupo_luiza.html">PROJETO AUTÔNOMO PRÁTICO E TEÓRICO</a>
+              <a href="PaginaGrupo_José.html">PRJETOS FÍSICOS E MECÂNICOS</a>
+          </div>
+        </div> 
+        <li><a href="Sobre_nos_Rodrigo.html">Sobre nós</a></li>
+        <li><a href="Fotos_Jose.html">Fotos</a></li>
+        <li><a href="Contato_Luiza.html">Contatos</a></li>
          
        </ul>
      </div>
@@ -185,6 +238,9 @@
          <div class="placa">
             <img class="placa" src="Natureza_do_Design.jpg" alt="Natureza do design">
          </div>
+         <div class="placa">
+            <img class="placa" src="estacao.jpeg" alt="Natureza do design">
+         </div>
         
       </div>
       <div class="titulo">
@@ -197,7 +253,9 @@
          <div class="placa">
             <img class="placa" src="python-logo.png" alt="Python">
          </div>
-        
+         <div class="placa">
+            <img class="placa" src="codigo_html.png" alt="Python">
+         </div>
       </div>
       <div class="titulo">
          <h1> Estudos Teórico Autônomos </h1>
@@ -208,6 +266,9 @@
       <div class="main">
          <div class="placa">
             <img class="placa" src="poster-luciana-lassance1.png" alt="Estudo autônomo de um artigo acadêmico">
+         </div>
+         <div class="placa">
+            <img class="placa" src="apresentacao.jpg" alt="Estudo autônomo de um artigo acadêmico">
          </div>
       
       </div>
@@ -222,7 +283,9 @@
          <div class="placa">
             <img class="placa" src="startup.jpeg" alt="Modelo de negócio para startup nova">
          </div>
-      
+         <div class="placa">
+            <img class="placa" src="empresa.jpeg" alt="Modelo de negócio para startup nova">
+         </div>
          </div>
       </div>
    </body>
